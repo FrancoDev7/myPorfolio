@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+@theme {
+  /* Colores principales */
+  --color-background: hsl(0 0% 7%);
+  --color-foreground: hsl(0 0% 98%);
+
+  /* Card */
+  --color-card: hsl(0 0% 10%);
+  --color-card-foreground: hsl(0 0% 98%);
+
+  /* Popover */
+  --color-popover: hsl(0 0% 10%);
+  --color-popover-foreground: hsl(0 0% 98%);
+
+  /* Primary */
+  --color-primary: hsl(0 0% 98%);
+  --color-primary-foreground: hsl(0 0% 7%);
+
+  /* Secondary */
+  --color-secondary: hsl(0 0% 15%);
+  --color-secondary-foreground: hsl(0 0% 98%);
+
+  /* Muted */
+  --color-muted: hsl(0 0% 15%);
+  --color-muted-foreground: hsl(0 0% 60%);
+
+  /* Accent */
+  --color-accent: hsl(0 0% 20%);
+  --color-accent-foreground: hsl(0 0% 98%);
+
+  /* Destructive */
+  --color-destructive: hsl(0 0% 40%);
+  --color-destructive-foreground: hsl(0 0% 98%);
+
+  /* Borders e inputs */
+  --color-border: hsl(0 0% 20%);
+  --color-input: hsl(0 0% 20%);
+  --color-ring: hsl(0 0% 60%);
+
+  /* Radius */
+  --radius: 0.5rem;
+}
+
+/* Estilos base */
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utilidades personalizadas */
+@utility text-balance {
+  text-wrap: balance;
+}
