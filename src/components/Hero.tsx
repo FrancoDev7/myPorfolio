@@ -5,13 +5,13 @@ const Hero = ({ lang }: HeroProps) => {
   const text = HeroContent[lang];
 
   return (
-    <section className="min-h-screen flex items-center pt-16 sm:pt-20 px-4 sm:px-6">
-      <div className="container mx-auto max-w-6xl">
-        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+    <section className="min-h-screen flex items-center pt-16 sm:pt-15 lg:pt-5 px-4 sm:px-6">
+      <div className="container mx-auto max-w-6xl text-center lg:text-left">
+        <div className="grid lg:grid-cols-2 items-center sm:gap-12 lg:gap-16">
           {/* Left side - Text content */}
-          <div className="space-y-6 sm:space-y-8 animate-fade-in">
+          <div className="space-y-6 sm:space-y-6 animate-fade-in  order-2 lg:order-1">
             <div className="space-y-2">
-              <p className="text-xs sm:text-sm font-mono text-muted-foreground">
+              <p className="text-sm sm:text-md lg:text-lg font-mono ">
                 {text.greeting}
               </p>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
@@ -25,7 +25,7 @@ const Hero = ({ lang }: HeroProps) => {
               {text.description}
             </p>
 
-            <div className="flex items-center gap-6 sm:gap-8 pt-4">
+            <div className="flex items-center justify-center lg:justify-start gap-6 sm:gap-8 pt-4">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
                 <span className="text-xs sm:text-sm font-mono">
@@ -35,15 +35,13 @@ const Hero = ({ lang }: HeroProps) => {
             </div>
           </div>
 
-          {/* Right side - Large accent element */}
-          <div className="hidden lg:flex items-center justify-center">
-            <div className="relative">
-              <div className="w-64 h-64 xl:w-80 xl:h-80 border border-border relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-foreground/5 to-transparent" />
-                <div className="absolute bottom-0 right-0 w-24 h-24 xl:w-32 xl:h-32 border-t border-l border-border" />
-                <div className="absolute top-0 left-0 w-20 h-20 xl:w-24 xl:h-24 border-b border-r border-border" />
-              </div>
-            </div>
+          {/* Right side - Profile image */}
+          <div className="flex items-center justify-center mb-8 lg:mb-0 order-1 lg:order-2">
+            <img
+              src="/Photo.webp"
+              alt="Foto de perfil"
+              className="w-50 h-50 sm:w-52 sm:h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 rounded-full object-cover border border-border shadow-sm"
+            />
           </div>
         </div>
       </div>

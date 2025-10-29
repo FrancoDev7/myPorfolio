@@ -6,7 +6,7 @@ export const Experiencia = ({ lang }: ExperienceProps) => {
   return (
     <section
       id="experience"
-      className="container mx-auto max-w-6xl px-4 sm:px-6 py-12 md:py-16 lg:py-20"
+      className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-0 py-12 md:py-16 lg:py-20"
     >
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6 sm:mb-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground">
