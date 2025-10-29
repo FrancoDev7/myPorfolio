@@ -26,12 +26,12 @@ export const ProyectosContent = {
         github: "https://github.com/FrancoDev7/journal-app-React",
       },
       {
-        icon: "💻",
-        name: "CDA - Control de Inventario de PSINet",
-        description: "Control de inventario de PSINet.",
-        tags: ["Node.js", "React", "MariaDB", "Nodemailer"],
-        github:
-          "https://github.com/FrancoDev7/CDA-Control-de-Inventario-PSINet",
+        icon: "🦸‍♂️",
+        name: "Heroes App",
+        description:
+          "Aplicacion para tus heroes favoritos, Buscar, Favoritos, etc. Se uso NestJS para el backend.",
+        tags: ["React", "TypeScript", "Vite", "TansStack"],
+        github: "https://github.com/FrancoDev7/heroes-app",
       },
     ],
   },
@@ -42,31 +42,32 @@ export const ProyectosContent = {
       {
         icon: "🛒",
         name: "F-Society Ecommerce En Next.js",
-        description:
-          "Ecommerce para la venta de productos de la marca f-society.",
+        description: "Ecommerce project using Next.js and Tailwind CSS.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
         github: "https://github.com/FrancoDev7/f-society",
       },
       {
         icon: "🚀",
         name: "Teslo Shop API",
-        description: "API para el proyecto Teslo Shop.",
+        description: "API project using NestJS and PostgreSQL.",
         tags: ["Nest.js", "TypeScript", "PostgreSQL"],
         github: "https://github.com/FrancoDev7/teslo-shop",
       },
       {
         icon: "📝",
         name: "Journal App ",
-        description: "Dashboard de análisis en tiempo real con gráficos.",
+        description:
+          "Journal app using React, Vite, Redux Toolkit and Material UI.",
         tags: ["React", "Vite", "Redux Toolkit", "Material UI"],
         github: "https://github.com/FrancoDev7/journal-app-React",
       },
       {
-        icon: "🛒",
-        name: "Teslo Shop En React",
-        description: "Ecommerce para la venta de productos de la marca Teslo.",
-        tags: ["React", "TypeScript", "Vite", "Zustand"],
-        github: "https://github.com/FrancoDev7/07-teslo-shop",
+        icon: "🦸‍♂️",
+        name: "Heroes App",
+        description:
+          "Application for your favorite heroes, search, favorites, etc. Use NestJS for the backend.",
+        tags: ["React", "TypeScript", "Vite", "TansStack"],
+        github: "https://github.com/FrancoDev7/05-heroes-app-react",
       },
     ],
   },
